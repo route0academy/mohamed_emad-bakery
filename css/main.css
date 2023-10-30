@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Alegreya', serif;
+}
+.topnav {
+    background-color: transparent;
+    overflow: visible;
+    padding: 10px 10% 0 10% ;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #8e7754;
+    color: white;
+  }
+  
+
+/* end nav */
+.header {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.header .content {
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+    
+}
+.header .content .welcome {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.header .content h1 {
+    margin-bottom: 18px;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: .05em;
+}
+.header .content .text{
+    margin-bottom: 20px;
+    font-size: 22px;
+    padding: 0 450px;
+    line-height: 2em;
+}
+.header .content .btn{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 20px;
+    margin: 0 10px ;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn1{
+    background-color: #8e7754;
+    border: white none ;
+}
+
+.btn2{
+    background-color: transparent;
+    border: white solid ;
+
+}
+/* end header */
+/* start about us */
+.about{
+    background-color: white;
+    height: 100vh;
+}
+.about .image{
+    padding: 10% 8%;
+    display: inline-block;
+}
+
+.about .info{
+    display: inline-block;
+    width: 40%;
+    
+}
+.about .info h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.about .info p{
+    color: #686868;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.about .info .data {
+    display: flex;
+}
+ .about .info .data .brd{
+    border-radius: 50%;
+    border: rgba(128, 128, 128, 0.632) solid 1px;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+ }
+ .about .info .data p {
+    margin-top: 10px;
+ }
+/* end about */
+.location {
+    background-color: #F8F8F8;
+    height: 80vh;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.location .locat {
+    width: 40%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10%;
+    display: inline-block;
+}
+.location .locat h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.location .locat p{
+    color: #686868;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.location .image{
+    display: inline-block;
+}
+/* end location */
+
+.backing {
+    background-color: #fff;
+    height: 90vh;
+    padding-top: 7%;
+    text-align: center;
+}
+
+.backing h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.backing p {
+    color: #686868;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.backing .parent {
+    width: 80%;
+    margin: auto;
+}
+.backing .item {
+      float: left;
+      width: 33.33%;
+}
+.clr {
+    clear: both;
+}
+
+.backing .item img {
+    margin-bottom: 20px;
+}
+.backing .item h3 {
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+/* end backing */
+.contact {
+    background-color: #f8f8f8;
+    height: 90vh;
+    
+}
+
+.contact .parent {
+    margin: auto;
+    padding : 7% 10%;
+}
+
+.contact .info {
+    float: left;
+}
+
+.contact .data {
+    width: 35%;
+    margin-right: 15%;
+}
+
+.contact .data h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    
+}
+
+.contact .data p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #686868;
+    margin-bottom: 30px;
+}
+
+.contact .data .details {
+    margin-top: 40px;
+}
+
+.contact .item {
+    display: flex;
+    margin-left: 10px;
+}
+
+.contact .item .logo {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #8e7754;
+}
+.contact .item p {
+    margin-left: 15px;
+    padding-top: 5px;
+}
+/* end contact */
+.tail {
+    background-color: #403d38;
+    height: 55vh;
+}
+.tail .parent {
+    width: 85%;
+    margin: auto;
+}
+
+.tail .block {
+    padding-top: 60px;
+    width: 22%;
+    float: left;
+    padding-right: 3%;
+
+
+}
+.tail .block h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.tail .block p {
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.68em;
+}
+
+.tail .block .text {
+    padding-top: 20px;
+}
+
+.tail .line {
+    height: .5px;
+    background-color: #686868;
+    margin-bottom: 5px;
+}
+.tail .features {
+    display: flex;
+    margin-bottom: 10px;
+}
+.tail .features img {
+    padding-top: 2px;
+}
+
+.tail .lines {
+    height: .5px;
+    background-color: #686868;
+    margin-bottom: 10px;
+}
+.tail .last p {
+    padding: 5px 0 0 2px;
+}
+/* end tail */
+
+.footer {
+    background-color: #353330;
+    text-align: center;
+}
+
+.footer .logo {
+    margin: 60px 0 30px 0;
+}
+.footer p {
+    color: #777;
+    font-size: 15px;
+}
+.footer .media {
+    margin-left: 43.5%;
+}
+.footer .icon {
+    float: left;
+    background-color: #484540;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 30px 5px 50px 5px ;
+}
